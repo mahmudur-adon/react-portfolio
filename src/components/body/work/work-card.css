@@ -1,0 +1,56 @@
+.work-card {
+  padding: 8px;
+
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.work-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.work-dates {
+  color: gray;
+}
+.work-desc {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+}
+.project-links a {
+  color: black;
+}
+.project-links {
+  margin-top: 6px;
+  display: flex;
+}
+.link-button {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: max-content;
+  background-color: aquamarine;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 6px;
+}
+.link-button i {
+  display: flex;
+  align-items: left;
+  margin-right: 4px;
+}
+@media only screen and (max-width: 720px) {
+  .work-card {
+    width: 100%;
+  }
+}
