@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build/portfolio-mahmud",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
