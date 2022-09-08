@@ -1,39 +1,41 @@
 export const SkillsData = [
   {
-    type: "Frontend",
+    type: "Tools & Framework",
     list: [
       {
-        name: "ReactJS",
-        icon: <i class="devicon-react-original colored"></i>,
+        name: "Selenium",
+        icon: <i class="devicon-selenium-original"></i>,
+      
       },
       {
-        name: "Angular",
-        icon: <i class="devicon-angularjs-plain colored"></i>,
+        name: "Jenkins",
+        icon: <i class="devicon-jenkins-line"></i>,
       },
       {
-        name: "Javascript",
-        icon: <i class="devicon-javascript-plain colored"></i>,
+        name: "Robot Framework",
+        icon: <i class="devicon-rstudio-plain"></i>,
       },
       {
-        name: "Typescript",
-        icon: <i class="devicon-typescript-plain colored"></i>,
+        name: "TestNG",
+        icon: 
+        <i class="devicon-travis-plain colored"></i>,
       },
     ],
   },
   {
-    type: "Backend",
+    type: "Test Management Tool",
     list: [
       {
-        name: "C++",
-        icon: <i class="devicon-cplusplus-plain colored"></i>,
+        name: "Confluence",
+        icon: <i class="devicon-confluence-original colored"></i>,
       },
       {
-        name: "Firebase",
-        icon: <i class="devicon-firebase-plain-wordmark colored"></i>,
+        name: "Jira",
+        icon: <i class="devicon-jira-plain colored"></i>,
       },
       {
-        name: "MySQL",
-        icon: <i class="devicon-mysql-plain-wordmark colored"></i>,
+        name: "Redmine",
+        icon: <i class="devicon-rstudio-plain"></i>,
       },
     ],
   },
